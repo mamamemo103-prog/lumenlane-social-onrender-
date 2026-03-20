@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play Games — LumenLane</title>
+  <meta name="description" content="LumenLane at lumenlane.netlify.app — six browser games: Prism Fall, Burrow Bash, Zen Volley, Orbit Siege, Lumen Sweep, Shard Rift. No signup. For visitors 18+.">
+  <link rel="canonical" href="https://lumenlane.netlify.app/games.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="img/favi.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html" aria-label="LumenLane home">
+        <img src="img/logo.webp" alt="LumenLane" class="brand__img" width="120" height="32">
+      </a>
+      <nav class="nav-desktop" aria-label="Primary">
+        <a href="games.html">Games</a>
+        <a href="about.html">About</a>
+        <a href="responsible-play.html">Responsible Play</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn btn--primary" href="games.html">Play Now</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-drawer" id="navToggle">
+        <span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-overlay" id="navOverlay" aria-hidden="true"></div>
+  <div class="nav-drawer" id="navDrawer" role="dialog" aria-label="Menu">
+    <a href="games.html">Games</a>
+    <a href="about.html">About</a>
+    <a href="responsible-play.html">Responsible Play</a>
+    <a href="contact.html">Contact</a>
+    <a class="btn btn--primary" href="games.html" style="margin-top: 12px;">Play Now</a>
+  </div>
+
+  <main>
+    <section class="games-hero games-hero--renew" aria-label="Play games">
+      <div class="games-hero__bg" aria-hidden="true"></div>
+      <div class="games-hero__mesh" aria-hidden="true"></div>
+      <div class="wrap games-hero__wrap">
+        <div class="games-hero__panel">
+          <p class="games-hero__eyebrow"><span class="games-hero__eyebrow-icon" aria-hidden="true"></span> LumenLane Game Library</p>
+          <h1 class="games-hero__title">Choose your mode, then <span class="games-hero__title-accent">launch instantly</span></h1>
+          <p class="games-hero__desc">Browse action, puzzle, and reflex titles. Every game opens in its own tab for quick switching.</p>
+          <div class="games-hero__actions">
+            <a class="btn btn--primary" href="#game-collection">View all cards</a>
+            <a class="btn btn--secondary" href="index.html#how">How it works</a>
+          </div>
+          <ul class="games-hero__stats" aria-label="Quick facts">
+            <li><strong>6</strong> curated games</li>
+            <li><strong>1 click</strong> launch flow</li>
+            <li><strong>18+</strong> visitors</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-nutshell" aria-label="In a nutshell">
+      <div class="wrap">
+        <div class="games-nutshell__box">
+          <span class="games-nutshell__icon" aria-hidden="true">↗</span>
+          <p class="games-nutshell__text">Use <strong>Launch</strong> on any card to open the game in a new tab. No signup — entertainment only.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface games-page-section" id="game-collection" aria-label="Game collection">
+      <div class="wrap">
+        <h2 class="games-section-title"><span class="games-section-title__mark" aria-hidden="true"></span> All LumenLane games</h2>
+        <div class="catalog-grid">
+          <a class="catalog-card" href="games/javascript-tetris-main/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/tetris.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Prism Fall</span>
+                <span class="catalog-card__desc">Stack shapes and clear rows before the board fills up.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+          <a class="catalog-card" href="games/Whack-a-Mole-master/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/whack_a_mole.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Burrow Bash</span>
+                <span class="catalog-card__desc">Tap fast-moving targets — pure reflex timing.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+          <a class="catalog-card" href="games/pong-game-main/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/pong.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Zen Volley</span>
+                <span class="catalog-card__desc">Guide your paddle and keep the rally alive.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+          <a class="catalog-card" href="games/SpaceInvader-master/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/space_invadors.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Orbit Siege</span>
+                <span class="catalog-card__desc">Defend against waves in a crisp arcade-style shoot-’em-up.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+          <a class="catalog-card" href="games/css-sweeper-master/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/miresweeper.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Lumen Sweep</span>
+                <span class="catalog-card__desc">Decode numbered clues to reveal a safe path across the grid.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+          <a class="catalog-card" href="games/Breakout_Game-master/index.html" target="_blank" rel="noopener">
+            <span class="catalog-card__visual"><img src="img/breakout.webp" alt="" loading="lazy" decoding="async"></span>
+            <div class="catalog-card__body">
+              <div class="catalog-card__main">
+                <span class="catalog-card__title">Shard Rift</span>
+                <span class="catalog-card__desc">Angle shots to smash layers of bricks and clear the wall.</span>
+              </div>
+              <div class="catalog-card__foot">
+                <span class="catalog-card__hint">New tab</span>
+                <span class="catalog-card__btn"><span class="catalog-card__btn-text">Launch</span></span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-starter" aria-label="Can't decide?">
+      <div class="wrap">
+        <p class="games-starter__label">Try one of these first:</p>
+        <div class="games-starter__buttons">
+          <a class="games-starter__btn" href="games/pong-game-main/index.html" target="_blank" rel="noopener">
+            <span class="games-starter__btn-name">Zen Volley</span>
+            <span class="games-starter__btn-desc">Paddle & ball</span>
+          </a>
+          <a class="games-starter__btn" href="games/javascript-tetris-main/index.html" target="_blank" rel="noopener">
+            <span class="games-starter__btn-name">Prism Fall</span>
+            <span class="games-starter__btn-desc">Stack &amp; clear</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-stats" aria-label="Quick facts">
+      <div class="wrap">
+        <div class="games-stats__row">
+          <span class="games-stats__item">6 games</span>
+          <span class="games-stats__dot" aria-hidden="true">·</span>
+          <span class="games-stats__item">Always free</span>
+          <span class="games-stats__dot" aria-hidden="true">·</span>
+          <span class="games-stats__item">Browser only</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="games-bookmark" aria-label="Bookmark tip">
+      <div class="wrap">
+        <p class="games-bookmark__text">Bookmark this page to return and try another game whenever you like.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" aria-label="Footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3 class="footer-col__title">About Us</h3>
+          <p>Casual browser games. No registration. Entertainment only. Adults 18+.</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col__title">Policy and Legal</h3>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+            <li><a href="responsible-play.html">Responsible Play</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col__title">Support and Information</h3>
+          <ul>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="technical-notes.html">Technical Notes</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> LumenLane. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="cookiebar" id="cookiebar" aria-live="polite">
+    <p>We use cookies to improve your experience. By continuing you agree to our use of cookies.</p>
+    <div class="cookiebar__btns">
+      <button type="button" class="btn btn--secondary" id="cookieReject">Reject</button>
+      <button type="button" class="btn btn--primary" id="cookieAccept">Accept</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>if (document.getElementById("year")) document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
