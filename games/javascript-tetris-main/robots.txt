@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lumenlane.netlify.app/games/javascript-tetris-main/sitemap.xml
